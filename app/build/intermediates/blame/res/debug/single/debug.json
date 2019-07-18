@@ -1,0 +1,114 @@
+[
+    {
+        "merged": "F:\\code\\Users\\even\\EvenVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ct0.png.flat",
+        "source": "F:\\code\\Users\\even\\EvenVideo\\app\\src\\main\\res\\drawable-hdpi\\ct0.png"
+    },
+    {
+        "merged": "F:\\code\\Users\\even\\EvenVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher.png.flat",
+        "source": "F:\\code\\Users\\even\\EvenVideo\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\code\\Users\\even\\EvenVideo\\app\\build\\intermediates\\res\\merged\\debug\\layout_video.xml.flat",
+        "source": "F:\\code\\Users\\even\\EvenVideo\\app\\src\\main\\res\\layout\\video.xml"
+    },
+    {
+        "merged": "F:\\code\\Users\\even\\EvenVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_now_playing_progress_handle_normal.png.flat",
+        "source": "F:\\code\\Users\\even\\EvenVideo\\app\\src\\main\\res\\drawable-hdpi\\now_playing_progress_handle_normal.png"
+    },
+    {
+        "merged": "F:\\code\\Users\\even\\EvenVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_pp_normal.xml.flat",
+        "source": "F:\\code\\Users\\even\\EvenVideo\\app\\src\\main\\res\\drawable\\btn_pp_normal.xml"
+    },
+    {
+        "merged": "F:\\code\\Users\\even\\EvenVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_b_bg1.png.flat",
+        "source": "F:\\code\\Users\\even\\EvenVideo\\app\\src\\main\\res\\drawable-hdpi\\b_bg1.png"
+    },
+    {
+        "merged": "F:\\code\\Users\\even\\EvenVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_actionbar_setting.xml.flat",
+        "source": "F:\\code\\Users\\even\\EvenVideo\\app\\src\\main\\res\\drawable\\btn_actionbar_setting.xml"
+    },
+    {
+        "merged": "F:\\code\\Users\\even\\EvenVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_collection1.png.flat",
+        "source": "F:\\code\\Users\\even\\EvenVideo\\app\\src\\main\\res\\drawable-hdpi\\collection1.png"
+    },
+    {
+        "merged": "F:\\code\\Users\\even\\EvenVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_seek_bar_progress.png.flat",
+        "source": "F:\\code\\Users\\even\\EvenVideo\\app\\src\\main\\res\\drawable-hdpi\\seek_bar_progress.png"
+    },
+    {
+        "merged": "F:\\code\\Users\\even\\EvenVideo\\app\\build\\intermediates\\res\\merged\\debug\\layout_video_item.xml.flat",
+        "source": "F:\\code\\Users\\even\\EvenVideo\\app\\src\\main\\res\\layout\\video_item.xml"
+    },
+    {
+        "merged": "F:\\code\\Users\\even\\EvenVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_pp_1.png.flat",
+        "source": "F:\\code\\Users\\even\\EvenVideo\\app\\src\\main\\res\\drawable-hdpi\\pp_1.png"
+    },
+    {
+        "merged": "F:\\code\\Users\\even\\EvenVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_im_love.xml.flat",
+        "source": "F:\\code\\Users\\even\\EvenVideo\\app\\src\\main\\res\\drawable\\im_love.xml"
+    },
+    {
+        "merged": "F:\\code\\Users\\even\\EvenVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_thumb.xml.flat",
+        "source": "F:\\code\\Users\\even\\EvenVideo\\app\\src\\main\\res\\drawable\\btn_thumb.xml"
+    },
+    {
+        "merged": "F:\\code\\Users\\even\\EvenVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_seek_bar_bg.png.flat",
+        "source": "F:\\code\\Users\\even\\EvenVideo\\app\\src\\main\\res\\drawable-hdpi\\seek_bar_bg.png"
+    },
+    {
+        "merged": "F:\\code\\Users\\even\\EvenVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ct1.png.flat",
+        "source": "F:\\code\\Users\\even\\EvenVideo\\app\\src\\main\\res\\drawable-hdpi\\ct1.png"
+    },
+    {
+        "merged": "F:\\code\\Users\\even\\EvenVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_b_bg.png.flat",
+        "source": "F:\\code\\Users\\even\\EvenVideo\\app\\src\\main\\res\\drawable-hdpi\\b_bg.png"
+    },
+    {
+        "merged": "F:\\code\\Users\\even\\EvenVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rr_progress.xml.flat",
+        "source": "F:\\code\\Users\\even\\EvenVideo\\app\\src\\main\\res\\drawable\\rr_progress.xml"
+    },
+    {
+        "merged": "F:\\code\\Users\\even\\EvenVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_love.png.flat",
+        "source": "F:\\code\\Users\\even\\EvenVideo\\app\\src\\main\\res\\drawable-hdpi\\love.png"
+    },
+    {
+        "merged": "F:\\code\\Users\\even\\EvenVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_now_playing_progress_handle_pressed.png.flat",
+        "source": "F:\\code\\Users\\even\\EvenVideo\\app\\src\\main\\res\\drawable-hdpi\\now_playing_progress_handle_pressed.png"
+    },
+    {
+        "merged": "F:\\code\\Users\\even\\EvenVideo\\app\\build\\intermediates\\res\\merged\\debug\\menu_actionbar_menu.xml.flat",
+        "source": "F:\\code\\Users\\even\\EvenVideo\\app\\src\\main\\res\\menu\\actionbar_menu.xml"
+    },
+    {
+        "merged": "F:\\code\\Users\\even\\EvenVideo\\app\\build\\intermediates\\res\\merged\\debug\\layout_video_player.xml.flat",
+        "source": "F:\\code\\Users\\even\\EvenVideo\\app\\src\\main\\res\\layout\\video_player.xml"
+    },
+    {
+        "merged": "F:\\code\\Users\\even\\EvenVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_playback_small_pressed.png.flat",
+        "source": "F:\\code\\Users\\even\\EvenVideo\\app\\src\\main\\res\\drawable-hdpi\\btn_playback_small_pressed.png"
+    },
+    {
+        "merged": "F:\\code\\Users\\even\\EvenVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_love_pres.png.flat",
+        "source": "F:\\code\\Users\\even\\EvenVideo\\app\\src\\main\\res\\drawable-hdpi\\love_pres.png"
+    },
+    {
+        "merged": "F:\\code\\Users\\even\\EvenVideo\\app\\build\\intermediates\\res\\merged\\debug\\layout_video_item_big.xml.flat",
+        "source": "F:\\code\\Users\\even\\EvenVideo\\app\\src\\main\\res\\layout\\video_item_big.xml"
+    },
+    {
+        "merged": "F:\\code\\Users\\even\\EvenVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_pp_0.png.flat",
+        "source": "F:\\code\\Users\\even\\EvenVideo\\app\\src\\main\\res\\drawable-hdpi\\pp_0.png"
+    },
+    {
+        "merged": "F:\\code\\Users\\even\\EvenVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_listitem.xml.flat",
+        "source": "F:\\code\\Users\\even\\EvenVideo\\app\\src\\main\\res\\drawable\\btn_listitem.xml"
+    },
+    {
+        "merged": "F:\\code\\Users\\even\\EvenVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_playback_small_normal.png.flat",
+        "source": "F:\\code\\Users\\even\\EvenVideo\\app\\src\\main\\res\\drawable-hdpi\\btn_playback_small_normal.png"
+    },
+    {
+        "merged": "F:\\code\\Users\\even\\EvenVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_no_file.png.flat",
+        "source": "F:\\code\\Users\\even\\EvenVideo\\app\\src\\main\\res\\drawable-hdpi\\ic_no_file.png"
+    }
+]

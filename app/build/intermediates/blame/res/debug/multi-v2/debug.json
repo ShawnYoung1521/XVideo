@@ -1,0 +1,65 @@
+{
+    "logs": [
+        {
+            "outputFile": "F:\\code\\Users\\even\\EvenVideo\\app\\build\\intermediates\\res\\merged\\debug\\values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "F:\\code\\Users\\even\\EvenVideo\\app\\src\\main\\res\\values\\color.xml",
+                    "from": {
+                        "startLines": "3,2",
+                        "startColumns": "4,4",
+                        "startOffsets": "103,57",
+                        "endColumns": "39,44",
+                        "endOffsets": "138,97"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,95",
+                        "endColumns": "39,44",
+                        "endOffsets": "90,135"
+                    }
+                },
+                {
+                    "source": "F:\\code\\Users\\even\\EvenVideo\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "5,3,4,10,9,7,8,11,12,6",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "160,59,107,401,351,255,301,444,487,214",
+                        "endColumns": "52,46,51,41,48,44,48,41,42,39",
+                        "endOffsets": "208,101,154,438,395,295,345,481,525,249"
+                    },
+                    "to": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "140,193,240,292,334,383,428,477,519,562",
+                        "endColumns": "52,46,51,41,48,44,48,41,42,39",
+                        "endOffsets": "188,235,287,329,378,423,472,514,557,597"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "F:\\code\\Users\\even\\EvenVideo\\app\\build\\intermediates\\res\\merged\\debug\\values-zh-rCN_values-zh-rCN.arsc.flat",
+            "map": [
+                {
+                    "source": "F:\\code\\Users\\even\\EvenVideo\\app\\src\\main\\res\\values-zh-rCN\\strings.xml",
+                    "from": {
+                        "startLines": "5,3,4,7,8,6",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "147,59,101,242,290,201",
+                        "endColumns": "52,40,44,46,44,39",
+                        "endOffsets": "195,95,141,284,330,236"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,108,149,194,241,286",
+                        "endColumns": "52,40,44,46,44,39",
+                        "endOffsets": "103,144,189,236,281,321"
+                    }
+                }
+            ]
+        }
+    ]
+}

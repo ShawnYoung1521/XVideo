@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="whitesmoke">#DCDCDC</color>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">EvenVideo</string>
+    <string name="hello_world">Local video</string>
+    <string name="list_all">全部列表</string>
+    <string name="list_collection">收藏列表</string>
+    <string name="nofiletx">No File</string>
+    <string name="scanning">Scanning...</string>
+    <string name="show_big">大图样式</string>
+    <string name="show_smal">小图样式</string>
+    <string name="times">00:00</string>
+</resources>

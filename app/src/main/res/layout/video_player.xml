@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical" >
+
+    <SurfaceView
+        android:id="@+id/video"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+    <ProgressBar
+        android:id="@+id/prepared_pb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/ct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_margin="15dip"
+        android:background="@drawable/ct0"
+        android:clickable="true"
+        android:onClick="onClick" />
+
+    <RelativeLayout
+        android:id="@+id/playui"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:layout_alignParentBottom="true"
+        android:animateLayoutChanges="true" >
+
+        <ImageView
+            android:id="@+id/pp"
+            android:layout_width="70dp"
+            android:layout_height="34dip"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="2dip"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:padding="10dip"
+            android:scaleType="center"
+            android:src="@drawable/btn_pp_normal" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/pp"
+            android:paddingRight="15dp" >
+
+            <TextView
+                android:id="@+id/currenttime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dip"
+                android:gravity="right"
+                android:text="@string/times"
+                android:textColor="@android:color/white"
+                android:textSize="14dip" />
+
+            <SeekBar
+                android:id="@+id/progress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/totaltime"
+                android:layout_toRightOf="@+id/currenttime"
+                android:maxHeight="4.0dip"
+                android:minHeight="4.0dip"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:progressDrawable="@drawable/rr_progress"
+                android:thumb="@drawable/btn_thumb" />
+
+            <TextView
+                android:id="@+id/totaltime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dip"
+                android:gravity="left"
+                android:text="@string/times"
+                android:textColor="@android:color/white"
+                android:textSize="14dip" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

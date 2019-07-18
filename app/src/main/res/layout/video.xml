@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whitesmoke" >
+
+    <ListView
+        android:id="@+id/ls_video"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </ListView>
+
+    <include
+        android:id="@+id/id_player"
+        layout="@layout/video_player"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/load_tx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:drawablePadding="15dp"
+        android:drawableTop="@drawable/ic_no_file"
+        android:gravity="center_horizontal"
+        android:onClick="onClick"
+        android:padding="30dp"
+        android:text="@string/scanning"
+        android:textColor="@android:color/black"
+        android:textSize="18dip" />
+
+</RelativeLayout>

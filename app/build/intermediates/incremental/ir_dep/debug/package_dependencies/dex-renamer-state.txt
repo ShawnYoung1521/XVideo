@@ -1,0 +1,4 @@
+#Mon Mar 25 22:59:30 CST 2019
+base.0=F\:\\code\\Users\\even\\EvenVideo\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\10
+path.0=classes.dex
+renamed.0=classes.dex

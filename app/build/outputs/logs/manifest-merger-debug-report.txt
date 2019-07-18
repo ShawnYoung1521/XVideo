@@ -1,0 +1,121 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\code\Users\even\EvenVideo\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from F:\code\Users\even\EvenVideo\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from F:\code\Users\even\EvenVideo\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from F:\code\Users\even\EvenVideo\app\src\main\AndroidManifest.xml:2:1-29:12
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\9fc5441f16daa2736fc4630894054cef\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\673ec53c6ffd2771f0775458baedc260\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\a330732dec67d76103bd8a97b79ee066\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\3c4cb55e765fb3d28e656ae93cb8ab88\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\4ff117573150e0a2f4d299109553c9e7\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\02c5153f11aaa90d1b7f2d07fcc61855\AndroidManifest.xml:17:1-31:12
+INJECTED from F:\code\Users\even\EvenVideo\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from F:\code\Users\even\EvenVideo\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from F:\code\Users\even\EvenVideo\app\src\main\AndroidManifest.xml:2:1-29:12
+	package
+		ADDED from F:\code\Users\even\EvenVideo\app\src\main\AndroidManifest.xml:3:5-29
+		INJECTED from F:\code\Users\even\EvenVideo\app\src\main\AndroidManifest.xml
+		INJECTED from F:\code\Users\even\EvenVideo\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from F:\code\Users\even\EvenVideo\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from F:\code\Users\even\EvenVideo\app\src\main\AndroidManifest.xml
+		INJECTED from F:\code\Users\even\EvenVideo\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from F:\code\Users\even\EvenVideo\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from F:\code\Users\even\EvenVideo\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from F:\code\Users\even\EvenVideo\app\src\main\AndroidManifest.xml
+		INJECTED from F:\code\Users\even\EvenVideo\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from F:\code\Users\even\EvenVideo\app\src\main\AndroidManifest.xml:8:5-80
+	android:name
+		ADDED from F:\code\Users\even\EvenVideo\app\src\main\AndroidManifest.xml:8:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from F:\code\Users\even\EvenVideo\app\src\main\AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from F:\code\Users\even\EvenVideo\app\src\main\AndroidManifest.xml:9:22-78
+application
+ADDED from F:\code\Users\even\EvenVideo\app\src\main\AndroidManifest.xml:11:5-27:19
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\9fc5441f16daa2736fc4630894054cef\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\9fc5441f16daa2736fc4630894054cef\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\673ec53c6ffd2771f0775458baedc260\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\673ec53c6ffd2771f0775458baedc260\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\a330732dec67d76103bd8a97b79ee066\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\a330732dec67d76103bd8a97b79ee066\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\3c4cb55e765fb3d28e656ae93cb8ab88\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\3c4cb55e765fb3d28e656ae93cb8ab88\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\4ff117573150e0a2f4d299109553c9e7\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\4ff117573150e0a2f4d299109553c9e7\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\02c5153f11aaa90d1b7f2d07fcc61855\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\02c5153f11aaa90d1b7f2d07fcc61855\AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from F:\code\Users\even\EvenVideo\app\src\main\AndroidManifest.xml:14:9-41
+	android:icon
+		ADDED from F:\code\Users\even\EvenVideo\app\src\main\AndroidManifest.xml:13:9-45
+	android:allowBackup
+		ADDED from F:\code\Users\even\EvenVideo\app\src\main\AndroidManifest.xml:12:9-35
+	android:theme
+		ADDED from F:\code\Users\even\EvenVideo\app\src\main\AndroidManifest.xml:15:9-56
+activity#com.even.video.VideoMainActivity
+ADDED from F:\code\Users\even\EvenVideo\app\src\main\AndroidManifest.xml:17:9-26:20
+	android:label
+		ADDED from F:\code\Users\even\EvenVideo\app\src\main\AndroidManifest.xml:19:13-45
+	android:configChanges
+		ADDED from F:\code\Users\even\EvenVideo\app\src\main\AndroidManifest.xml:20:13-74
+	android:name
+		ADDED from F:\code\Users\even\EvenVideo\app\src\main\AndroidManifest.xml:18:13-46
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from F:\code\Users\even\EvenVideo\app\src\main\AndroidManifest.xml:22:13-25:29
+action#android.intent.action.MAIN
+ADDED from F:\code\Users\even\EvenVideo\app\src\main\AndroidManifest.xml:23:17-69
+	android:name
+		ADDED from F:\code\Users\even\EvenVideo\app\src\main\AndroidManifest.xml:23:25-66
+category#android.intent.category.LAUNCHER
+ADDED from F:\code\Users\even\EvenVideo\app\src\main\AndroidManifest.xml:24:17-77
+	android:name
+		ADDED from F:\code\Users\even\EvenVideo\app\src\main\AndroidManifest.xml:24:27-74
+uses-sdk
+INJECTED from F:\code\Users\even\EvenVideo\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from F:\code\Users\even\EvenVideo\app\src\main\AndroidManifest.xml
+INJECTED from F:\code\Users\even\EvenVideo\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\9fc5441f16daa2736fc4630894054cef\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\9fc5441f16daa2736fc4630894054cef\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\673ec53c6ffd2771f0775458baedc260\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\673ec53c6ffd2771f0775458baedc260\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\a330732dec67d76103bd8a97b79ee066\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\a330732dec67d76103bd8a97b79ee066\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\3c4cb55e765fb3d28e656ae93cb8ab88\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\3c4cb55e765fb3d28e656ae93cb8ab88\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\4ff117573150e0a2f4d299109553c9e7\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\4ff117573150e0a2f4d299109553c9e7\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\02c5153f11aaa90d1b7f2d07fcc61855\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\02c5153f11aaa90d1b7f2d07fcc61855\AndroidManifest.xml:21:5-23:58
+INJECTED from F:\code\Users\even\EvenVideo\app\src\main\AndroidManifest.xml
+INJECTED from F:\code\Users\even\EvenVideo\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\9fc5441f16daa2736fc4630894054cef\AndroidManifest.xml:23:9-51
+	android:targetSdkVersion
+		INJECTED from F:\code\Users\even\EvenVideo\app\src\main\AndroidManifest.xml
+		ADDED from F:\code\Users\even\EvenVideo\app\src\main\AndroidManifest.xml
+		INJECTED from F:\code\Users\even\EvenVideo\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from F:\code\Users\even\EvenVideo\app\src\main\AndroidManifest.xml
+		ADDED from F:\code\Users\even\EvenVideo\app\src\main\AndroidManifest.xml
+		INJECTED from F:\code\Users\even\EvenVideo\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:support-v4:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\9fc5441f16daa2736fc4630894054cef\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\673ec53c6ffd2771f0775458baedc260\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\673ec53c6ffd2771f0775458baedc260\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\a330732dec67d76103bd8a97b79ee066\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\a330732dec67d76103bd8a97b79ee066\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\3c4cb55e765fb3d28e656ae93cb8ab88\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\3c4cb55e765fb3d28e656ae93cb8ab88\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\4ff117573150e0a2f4d299109553c9e7\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\4ff117573150e0a2f4d299109553c9e7\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\02c5153f11aaa90d1b7f2d07fcc61855\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\02c5153f11aaa90d1b7f2d07fcc61855\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:support-v4:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\9fc5441f16daa2736fc4630894054cef\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:support-v4:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\9fc5441f16daa2736fc4630894054cef\AndroidManifest.xml:26:9-47

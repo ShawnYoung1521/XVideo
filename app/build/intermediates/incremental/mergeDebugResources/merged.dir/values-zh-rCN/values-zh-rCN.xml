@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">一维视</string>
+    <string name="hello_world">本地视频</string>
+    <string name="nofiletx">没有文件,点击刷新</string>
+    <string name="scanning">正在扫描...</string>
+    <string name="times">00:00</string>
+</resources>
