@@ -94,6 +94,7 @@ SurfaceHolder.Callback
 	private static final int VISIBLE_PLAYUI = 0x03;
 	private static final int ADD_VIDEO_DATA = 0X05;
 	private int mCurrentPos;  //播放的位置
+	private String mTemporaryPath = "";
 	private SurfaceHolder surfaceHolder;
 	private SurfaceView mSurfaceView;
 	private SeekBar mSeekBar;  //进度条
@@ -385,7 +386,12 @@ SurfaceHolder.Callback
 		mHandler.sendEmptyMessageDelayed(SHOW_PROGRESS, 250);
 		if (isInPlaybackState()) {
 			mMediaPlayer.start();
-			mSeekTo(0);
+			if (mTemporaryPath.equals(mPath)){
+				mMediaPlayer.seekTo(mCurrentPos);
+			}else {
+				mTemporaryPath = mPath;
+				mMediaPlayer.seekTo(0);
+			}
 		}
 	}
 
@@ -408,7 +414,6 @@ SurfaceHolder.Callback
 	 * 设置进度
 	 */
 	private void mSeekTo(int sk){
-		Log.i("XY","设置进度 ");
 		if (isInPlaybackState()) {
 			mMediaPlayer.seekTo(sk);
 		}
@@ -443,18 +448,15 @@ SurfaceHolder.Callback
 		if (mMediaPlayer != null) {
 			mMediaPlayer.setDisplay(surfaceHolder);
 		}
-		Log.i("XY", "surfaceCreated");
 	}
 
 	@Override
 	public void surfaceChanged(SurfaceHolder holder, int format, int width,
 			int height) {
-		Log.i("XY", "surfaceChanged");
 	}
 
 	@Override
 	public void surfaceDestroyed(SurfaceHolder holder) {
-		Log.i("XY", "surfaceDestroyed");
 	}
 
 	/*
@@ -464,7 +466,6 @@ SurfaceHolder.Callback
 	public void onPrepared(MediaPlayer mp) {
 		mSurfaceView.setVisibility(View.VISIBLE);
 		mMediaPlayerState = STATE_PREPARED;
-		Log.i("XY","装载流媒体完毕");
 		mPrepared_pb .setVisibility(View.GONE);
 		if (mMediaPlayer != null) {
 			mMediaPlayer.setDisplay(surfaceHolder);
@@ -478,7 +479,6 @@ SurfaceHolder.Callback
 	@Override
 	public boolean onError(MediaPlayer mp, int what, int extra) {
 		mMediaPlayerState = STATE_ERROR;
-		Log.i("XY","播放中发生错误");
 		return false;
 	}
 
@@ -488,7 +488,6 @@ SurfaceHolder.Callback
 	@Override
 	public void onCompletion(MediaPlayer mp) {
 		mMediaPlayerState = STATE_PLAYBACK_COMPLETED;
-		Log.i("XY","媒体播放完毕");
 		Stop();
 		showList();
 	}
@@ -498,7 +497,6 @@ SurfaceHolder.Callback
 	 */
 	@Override
 	public void onSeekComplete(MediaPlayer mp) {
-		Log.i("XY","设置播放进度");
 	}
 
 	@Override
@@ -612,7 +610,6 @@ SurfaceHolder.Callback
 			/*
 			 * 双击
 			 */
-			Log.i("XY","双击屏幕 ");
 			mPPause();
 			return true;
 		}
@@ -622,7 +619,6 @@ SurfaceHolder.Callback
 				float velocityY) {
 			float x = e2.getX() - e1.getX();
 			float y = e2.getY() - e1.getY();
-			Log.i("XY","滑动屏幕 x:"+x+"   y:"+y);
 			if(x > 300) { 
 				mFastforward();
 				return true;
@@ -780,7 +776,6 @@ SurfaceHolder.Callback
 					video.setId(id);  
 					video.setMediaType(mediaType);
 					mALLMusicList.add(video); 
-					Log.i("md", "add: "+title);
 				}  
 				cursor.close();  
 			}  
@@ -869,7 +864,6 @@ SurfaceHolder.Callback
 			holder.time.setText(chengTimeShow(mList.get(position).getDuration()));
 			holder.size.setText(FileSizeUtil.formatFileSize(mList.get(position).getSize(), false));
 			holder.type.setText(mList.get(position).getMediaType());
-			Log.i("md","mList.get(position).getUrl()):  "+mList.get(position).getUrl());
 			Glide.with(mContext).load(mList.get(position).getUrl()).placeholder(R.drawable.ic_launcher).into(holder.icon); //利用Glide插件加载视频缩略图
 			holder.mCollection.setOnClickListener(new OnClickListener() {
 
