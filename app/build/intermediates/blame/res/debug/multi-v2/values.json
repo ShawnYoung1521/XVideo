@@ -1,40 +1,54 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\code\\Users\\even\\EvenVideo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "E:\\code\\github\\Video\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
-                    "source": "F:\\code\\Users\\even\\EvenVideo\\app\\src\\main\\res\\values\\color.xml",
+                    "source": "E:\\code\\github\\Video\\app\\src\\main\\res\\values\\strings.xml",
                     "from": {
-                        "startLines": "3,2",
-                        "startColumns": "4,4",
-                        "startOffsets": "103,57",
-                        "endColumns": "39,44",
-                        "endOffsets": "138,97"
+                        "startLines": "12,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "4,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "478,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "endColumns": "46,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "endOffsets": "520,-1,-1,-1,-1,-1,-1,-1,-1,-1"
                     },
                     "to": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,95",
-                        "endColumns": "39,44",
-                        "endOffsets": "90,135"
+                        "startLines": "8,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "275,407,460,507,549,598,643,692,734,777",
+                        "endColumns": "46,52,46,41,48,44,48,41,42,39",
+                        "endOffsets": "317,455,502,544,593,638,687,729,772,812"
                     }
                 },
                 {
-                    "source": "F:\\code\\Users\\even\\EvenVideo\\app\\src\\main\\res\\values\\strings.xml",
+                    "source": "E:\\code\\github\\Video\\app\\src\\main\\res\\values\\arrays.xml",
                     "from": {
-                        "startLines": "5,3,4,10,9,7,8,11,12,6",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "160,59,107,401,351,255,301,444,487,214",
-                        "endColumns": "52,46,51,41,48,44,48,41,42,39",
-                        "endOffsets": "208,101,154,438,395,295,345,481,525,249"
+                        "startLines": "-1",
+                        "startColumns": "-1",
+                        "startOffsets": "-1"
                     },
                     "to": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "140,193,240,292,334,383,428,477,519,562",
-                        "endColumns": "52,46,51,41,48,44,48,41,42,39",
-                        "endOffsets": "188,235,287,329,378,423,472,514,557,597"
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "7",
+                        "endColumns": "19",
+                        "endOffsets": "270"
+                    }
+                },
+                {
+                    "source": "E:\\code\\github\\Video\\app\\src\\main\\res\\values\\color.xml",
+                    "from": {
+                        "startLines": "-1,-1",
+                        "startColumns": "-1,-1",
+                        "startOffsets": "-1,-1"
+                    },
+                    "to": {
+                        "startLines": "9,10",
+                        "startColumns": "4,4",
+                        "startOffsets": "322,362",
+                        "endColumns": "39,44",
+                        "endOffsets": "357,402"
                     }
                 }
             ]

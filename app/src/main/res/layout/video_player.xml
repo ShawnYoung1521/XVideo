@@ -18,41 +18,30 @@
         android:layout_centerInParent="true"
         android:visibility="gone" />
 
-    <ImageView
-        android:id="@+id/ct"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:layout_margin="15dip"
-        android:background="@drawable/ct0"
-        android:clickable="true"
-        android:onClick="onClick" />
-
-    <RelativeLayout
+    <LinearLayout
         android:id="@+id/playui"
         android:layout_width="match_parent"
-        android:layout_height="50dip"
+        android:layout_height="40dip"
         android:layout_alignParentBottom="true"
-        android:animateLayoutChanges="true" >
+        android:animateLayoutChanges="true"
+        android:background="@android:color/darker_gray"
+        android:orientation="horizontal">
 
         <ImageView
             android:id="@+id/pp"
-            android:layout_width="70dp"
-            android:layout_height="34dip"
-            android:layout_centerVertical="true"
-            android:layout_marginLeft="2dip"
-            android:clickable="true"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
             android:onClick="onClick"
             android:padding="10dip"
             android:scaleType="center"
             android:src="@drawable/btn_pp_normal" />
 
         <RelativeLayout
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="6"
             android:layout_height="wrap_content"
-            android:layout_centerVertical="true"
-            android:layout_toRightOf="@+id/pp"
-            android:paddingRight="15dp" >
+            >
 
             <TextView
                 android:id="@+id/currenttime"
@@ -68,16 +57,14 @@
             <SeekBar
                 android:id="@+id/progress"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_centerVertical="true"
                 android:layout_toLeftOf="@+id/totaltime"
                 android:layout_toRightOf="@+id/currenttime"
                 android:maxHeight="4.0dip"
                 android:minHeight="4.0dip"
                 android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:progressDrawable="@drawable/rr_progress"
-                android:thumb="@drawable/btn_thumb" />
+                android:paddingRight="10dp" />
 
             <TextView
                 android:id="@+id/totaltime"
@@ -91,6 +78,13 @@
                 android:textColor="@android:color/white"
                 android:textSize="14dip" />
         </RelativeLayout>
-    </RelativeLayout>
-
+        <ImageView
+            android:id="@+id/ct"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:src="@drawable/ct0"
+            android:scaleType="center"
+            android:onClick="onClick" />
+    </LinearLayout>
 </RelativeLayout>

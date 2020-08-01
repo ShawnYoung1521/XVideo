@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="setting_items">
+        <item>@string/list_all</item>
+        <item>@string/list_collection</item>
+        <item>@string/show_big</item>
+        <item>@string/show_smal</item>
+    </string-array>
+</resources>

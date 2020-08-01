@@ -1,23 +1,23 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\code\\Users\\even\\EvenVideo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh-rCN\\values-zh-rCN.xml",
+            "outputFile": "E:\\code\\github\\Video\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh-rCN\\values-zh-rCN.xml",
             "map": [
                 {
-                    "source": "F:\\code\\Users\\even\\EvenVideo\\app\\src\\main\\res\\values-zh-rCN\\strings.xml",
+                    "source": "E:\\code\\github\\Video\\app\\src\\main\\res\\values-zh-rCN\\strings.xml",
                     "from": {
-                        "startLines": "5,3,4,7,8,6",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "147,59,101,242,290,201",
-                        "endColumns": "52,40,44,46,44,39",
-                        "endOffsets": "195,95,141,284,330,236"
+                        "startLines": "4,3,9,8,6,7,10,11,5",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "100,59,339,289,195,243,382,425,154",
+                        "endColumns": "52,39,41,48,46,44,41,42,39",
+                        "endOffsets": "148,94,376,333,237,283,419,463,189"
                     },
                     "to": {
-                        "startLines": "2,3,4,5,6,7",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "55,108,149,194,241,286",
-                        "endColumns": "52,40,44,46,44,39",
-                        "endOffsets": "103,144,189,236,281,321"
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,108,148,190,239,286,331,373,416",
+                        "endColumns": "52,39,41,48,46,44,41,42,39",
+                        "endOffsets": "103,143,185,234,281,326,368,411,451"
                     }
                 }
             ]

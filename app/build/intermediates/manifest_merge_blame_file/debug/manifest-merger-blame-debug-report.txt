@@ -1,0 +1,55 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.even.video"
+4    android:versionCode="1"
+5    android:versionName="1.4" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="11"
+8-->E:\code\github\Video\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="21" />
+9-->E:\code\github\Video\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+11-->E:\code\github\Video\app\src\main\AndroidManifest.xml:7:5-80
+11-->E:\code\github\Video\app\src\main\AndroidManifest.xml:7:22-77
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->E:\code\github\Video\app\src\main\AndroidManifest.xml:8:5-81
+12-->E:\code\github\Video\app\src\main\AndroidManifest.xml:8:22-78
+13
+14    <application
+14-->E:\code\github\Video\app\src\main\AndroidManifest.xml:10:5-27:19
+15        android:allowBackup="true"
+15-->E:\code\github\Video\app\src\main\AndroidManifest.xml:11:9-35
+16        android:debuggable="true"
+17        android:icon="@drawable/ic_launcher"
+17-->E:\code\github\Video\app\src\main\AndroidManifest.xml:12:9-45
+18        android:label="@string/app_name"
+18-->E:\code\github\Video\app\src\main\AndroidManifest.xml:13:9-41
+19        android:testOnly="true"
+20        android:theme="@android:style/Theme.NoTitleBar" >
+20-->E:\code\github\Video\app\src\main\AndroidManifest.xml:14:9-56
+21        <activity
+21-->E:\code\github\Video\app\src\main\AndroidManifest.xml:16:9-26:20
+22            android:name="com.even.video.VideoActivity"
+22-->E:\code\github\Video\app\src\main\AndroidManifest.xml:17:13-42
+23            android:configChanges="keyboardHidden|orientation|screenSize"
+23-->E:\code\github\Video\app\src\main\AndroidManifest.xml:20:13-74
+24            android:label="@string/app_name"
+24-->E:\code\github\Video\app\src\main\AndroidManifest.xml:18:13-45
+25            android:launchMode="singleTask" >
+25-->E:\code\github\Video\app\src\main\AndroidManifest.xml:19:13-44
+26            <intent-filter>
+26-->E:\code\github\Video\app\src\main\AndroidManifest.xml:22:13-25:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->E:\code\github\Video\app\src\main\AndroidManifest.xml:23:17-69
+27-->E:\code\github\Video\app\src\main\AndroidManifest.xml:23:25-66
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->E:\code\github\Video\app\src\main\AndroidManifest.xml:24:17-77
+29-->E:\code\github\Video\app\src\main\AndroidManifest.xml:24:27-74
+30            </intent-filter>
+31        </activity>
+32    </application>
+33
+34</manifest>
