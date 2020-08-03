@@ -47,6 +47,8 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.view.WindowManager;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.BaseAdapter;
@@ -424,7 +426,7 @@ SurfaceHolder.Callback
 	 */
 	private void Stop(){
 		mHandler.removeMessages(SHOW_PROGRESS);
-		mSurfaceView.setVisibility(View.INVISIBLE);
+		mSurfaceView.setVisibility(View.GONE);
 		if (mMediaPlayer != null) {
 			mMediaPlayer.setDisplay(null);
 			mMediaPlayer.stop();
@@ -891,7 +893,10 @@ SurfaceHolder.Callback
 	 * 列表界面与播放界面的切换
 	 */
 	private void showVideo() {
+		Animation animBottomInt = AnimationUtils.loadAnimation(this,
+				R.anim.bottom_int);
 		mPlayerView.setVisibility(View.VISIBLE);
+		mPlayerView.startAnimation(animBottomInt);
 		mListView.setVisibility(View.GONE);
 		isPlayerScape = true;
 		mHandler.removeMessages(GONE_PLAYUI);
@@ -899,10 +904,18 @@ SurfaceHolder.Callback
 	};
 
 	private void showList(){
+		Animation animBottomOut = AnimationUtils.loadAnimation(this,
+				R.anim.bottom_out);
 		mPlayerView.setVisibility(View.GONE);
+		mPlayerView.startAnimation(animBottomOut);
 		mListView.setVisibility(View.VISIBLE);
 		isPlayerScape = false;
-		Stop();
+		mHandler.postDelayed(new Runnable() {
+			@Override
+			public void run() {
+				Stop();
+			}
+		},500);
 		mHandler.removeMessages(GONE_PLAYUI);
 		getWindow().setFormat(PixelFormat.TRANSLUCENT);
 		getWindow().addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
