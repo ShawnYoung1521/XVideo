@@ -1,4 +1,4 @@
-package com.even.video.utils;
+package com.even.media.utils;
 
 import android.view.animation.Animation;
 import android.view.animation.TranslateAnimation;

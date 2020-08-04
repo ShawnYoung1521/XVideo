@@ -1,4 +1,4 @@
-package com.even.video.utils;
+package com.even.media.utils;
 
 import android.content.Context;
 import android.content.SharedPreferences;

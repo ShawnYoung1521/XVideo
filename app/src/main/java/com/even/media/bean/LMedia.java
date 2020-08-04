@@ -1,14 +1,14 @@
-package com.even.video.bean;
+package com.even.media.bean;
 
 //电影视频的model类  
-public class LVideo {  
+public class LMedia {
 	public String name;
 	public long size;
 	public String url;
 	public int duration;
 	public int id;
 	public String mediaType;
-	public LVideo(String aname,long asize,String aurl,int aduration,int aid,String amediaType) {
+	public LMedia(String aname, long asize, String aurl, int aduration, int aid, String amediaType) {
 		name = aname;
 		size = asize;  
 		url = aurl;  

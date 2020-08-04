@@ -1,4 +1,4 @@
-package com.even.video.utils;
+package com.even.media.utils;
 
 import java.io.BufferedReader;
 import java.io.File;
