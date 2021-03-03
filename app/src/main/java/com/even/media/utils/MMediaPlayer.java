@@ -12,6 +12,9 @@ import android.view.SurfaceView;
 
 import java.io.IOException;
 
+import cn.xy.library.util.log.XLog;
+import cn.xy.library.util.screen.XScreen;
+
 /**
  * Displays a video file.  The VideoView class
  * can load images from various sources (such as resources or content
@@ -151,17 +154,22 @@ public class MMediaPlayer extends SurfaceView {
     MediaPlayer.OnVideoSizeChangedListener mSizeChangedListener =
             new MediaPlayer.OnVideoSizeChangedListener() {
                 public void onVideoSizeChanged(MediaPlayer mp, int width, int height) {
+                    int h = mPhoneHeigth;
+                    int w = mPhoneWidth;
+                    if (XScreen.isLandscape()){
+                        w = mPhoneHeigth;
+                        h = mPhoneWidth;
+                    }
                     mVideoWidth = mp.getVideoWidth();
                     mVideoHeight = mp.getVideoHeight();
-
-                    float wRatio = (float) mVideoWidth / (float) mPhoneWidth;
-                    float hRatio = (float) mVideoHeight / (float) mPhoneHeigth;
-
+                    float wRatio = (float) mVideoWidth / (float) w;
+                    float hRatio = (float) mVideoHeight / (float) h;
+                    XLog.i(wRatio+"    "+hRatio);
                     // 选择大的一个进行缩放
                     float ratio = Math.max(wRatio, hRatio);
+                    XLog.i(ratio);
                     mVideoWidth = (int) Math.ceil((float) mVideoWidth / ratio);
                     mVideoHeight = (int) Math.ceil((float) mVideoHeight / ratio);
-
                     if (mVideoWidth != 0 && mVideoHeight != 0) {
                         getHolder().setFixedSize(mVideoWidth, mVideoHeight);
                         requestLayout();
